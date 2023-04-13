@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.awesomeapp{
+    width: 100%;
+    background: linear-gradient(-45deg, orange, rgb(255, 94, 0));
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px;
+}
+.left{
+    display: flex;
+}
+.left h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    padding-top: 10px;
+    margin: 0 15px;
+}
+.left img{
+    color: white;
+    /* font-size: 50px; */
+    width: 60px;
+}
+.right{
+    display: flex;
+}
+.ull{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    cursor: pointer;
+    padding-top: 10px;
+    /* align-items: center; */
+}
+.ull li{
+    color: rgba(255, 255, 255, 0.785);
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 15px;
+    /* transition: all .3s linear; */
+}
+.ull li:hover{
+    color: white;
+}
+.btnn button{
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .2s linear;
+    margin-left: 30px;
+}
+.btnn button:hover{
+    color: black;
+    background: white;
+}
+.drop_li{
+    position: relative;
+}
+.dropdawn{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    list-style: none;
+    width: 120px;
+    top: 100px;
+    left: -20px;
+    transition: all .3s linear;
+    border-radius: 5px;
+    padding: 10px;
+    background: rgba(128, 128, 128, 0.416);
+}
+.drop_li:hover .dropdawn{
+    visibility: visible;
+    opacity: 1;
+    top: 50px;
+}
+.dropdawn li:hover{
+    background: rgba(128, 128, 128, 0.756);
+}
+.dropdawn li{
+    padding: 0 10px;
+    transition: all .3s linear;
+    border-radius: 5px;
+}
+.dropdawn li{
+    list-style: none;
+}
+.drop_lli{
+    position: relative;
+}
+.dropdawnn{
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    background: rgba(128, 128, 128, 0.416);
+    list-style: none;
+    width: 120px;
+    top: 80px;
+    left: -135px;
+    transition: all .3s linear;
+    border-radius: 5px;
+    padding: 10px;
+}
+.drop_lli:hover .dropdawnn{
+    visibility: visible;
+    opacity: 1;
+    top: 3px;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.leftt h1{
+    font-size: 50px;
+    /* margin: 20px 0; */
+    margin-top: 70px;
+    padding-bottom: 30px;
+}
+.leftt ul{
+    margin-top: 30px;
+}
+.leftt ul li{
+    font-size: 20px;
+    line-height: 40px;
+}
+.btnnn{
+    border: 2px solid white;
+    border-radius: 50px;
+    background: transparent;
+    color: white;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .2s linear;
+    /* margin-left: 30px; */
+    margin-top: 40px;
+}
+.btnnn:hover{
+    color: black;
+    background: white;
+}
+.rightt img{
+    margin-top: 50px;
+}
+.show{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+}
+.cardd .ic{
+    display: flex;
+}
+.cardd .ic i{
+    font-size: 50px;
+    color: orange;
+}
+.cardd .ic h2{
+    font-weight: 400;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+.cardd p{
+    font-size: 17px;
+    color: rgba(0, 0, 0, 0.679);
+    padding-left: 70px;
+}
+.cardd{
+    width: 400px;
+    padding: 10px;
+}
+.cardd .pp{
+    padding-left: 77px;
+}
+.cardss{
+    display: flex;
+    gap: 30px;
+    padding-top: 60px;
+}
+.cardd .ppp{
+    padding-left: 73px;
+}
+.cardd .ic .h22{
+    padding-left: 30px;
+}
+.showw{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.204);
+    padding-bottom: 140px;
+    /* margin-bottom: 100px; */
+}
